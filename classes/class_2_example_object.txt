@@ -1,0 +1,11 @@
+var mike = new Bartender
+Name (Mike)
+age (41)
+height (6.3)
+clocked_in (false)
+
+methods
+clock_in(false)
+clock_out(false)
+make_drink(false)
+flirt(false)
