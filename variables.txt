@@ -1,0 +1,9 @@
+var food = "apples"
+var is_delicious = true
+food = "bananas"
+var num2= 50
+var num7= 25
+quotient = (num7 / num2)
+var songs = ["True Love", "Live and Let Die", "Just the Two of Us"];
+songs.shift
+food.length
