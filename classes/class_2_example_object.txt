@@ -1,11 +1,11 @@
-var mike = new Bartender
-Name (Mike)
-age (41)
-height (6.3)
-clocked_in (false)
+var coffee = new Beverage
+beverage_type = "coffee"
+beverage_price = 2.99
+beverage_volume = 1.0
+beverage_empty = false
 
 methods
-clock_in(false)
-clock_out(false)
-make_drink(false)
-flirt(false)
+sip (beverage_volume = 0.98)
+gulp (beverage_volume= 0.90)
+spill (beverage_volume = 0, beverage_finished = true)
+refill (beverage_volume = 1.0, beverage_empty = false)

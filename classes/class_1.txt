@@ -1,12 +1,14 @@
-class Server
+class Table
 attributes
-age (integer)
-name (string)
-clocked_in (boolean)
-height (float)
+table_type (string)
+table_reserved (boolean)
+table_settings (integer)
+table_in_use (boolean
+table_clean (boolean)
 
 methods
-take_order (takes order from seated customers)
-check_table (checks on happiness of customers)
-take_payment(takes customer's payment for food)
-pour_water(fills water glasses for customers)
+reserve (changes status of table_reserved to true)
+set_table (changes table_settings by +1)
+seat_table (changes table_reserved to false, and changes table_in_use to true)
+unseat_table (changes table in use to false, and changes table_clean to false)
+clean (changes table_clean to true)

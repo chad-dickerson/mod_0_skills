@@ -1,11 +1,11 @@
-Bartender
-Name (string)
-age (integer)
-height (float)
-clocked_in (boolean)
+Beverage
+beverage_type (string)
+beverage_price (float)
+beverage_volume (float with max value of 1.0)
+beverage_empty (boolean)
 
 methods
-clock_in(bartender punches off the clock)
-clock_out(bartender punches off the clock)
-make_drink(bartender makes drink for customer)
-flirt(increases customer satisfaction and increases tip)
+sip (Changes beverage_volume by -.02)
+gulp (Changes beverage_volume by -.08)
+spill (changes beverage_volume to 0 and beverage_empty = true)
+refill (changes beverage_volume to 1)

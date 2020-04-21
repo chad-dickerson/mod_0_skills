@@ -1,11 +1,14 @@
-sarah
-age (21)
-name (Sarah)
-clocked_in (True)
-height (5.5)
+var booth = new Table
+attributes
+table_type = "booth"
+table_reserved = false
+table_settings = 2
+table_in_use = false
+table_clean = true
 
 methods
-take_order = true
-check_table = true
-take_payment= true
-pour_water = true
+reserve (table_reserved = true)
+set_table (table_settings = 3)
+seat_table (table_reserved = false, table_in_use = true)
+unseat_table (table_in_use = false, table_clean = false)
+clean (table_clean = true)
